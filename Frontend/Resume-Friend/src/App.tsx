@@ -1,6 +1,6 @@
 // src/App.tsx
 import React from 'react';
-import UploadForm from './components/UploadForm';
+import UploadForm from './components/upload-form/UploadForm';
 
 const App: React.FC = () => {
   return (
