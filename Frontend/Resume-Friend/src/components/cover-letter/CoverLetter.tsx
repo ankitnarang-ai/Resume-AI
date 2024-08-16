@@ -5,8 +5,6 @@ const CoverLetter = () => {
   const location = useLocation();
   const coverLetter = location.state?.coverLetter;
 
-  console.log('Cover letter data:', coverLetter);
-
   const formatCoverLetter = (text: string) => {
     return text.split('\n').map((line, index) => (
       <React.Fragment key={index}>

@@ -1,13 +1,11 @@
 // src/App.tsx
 import React from 'react';
-import UploadForm from './components/upload-form/UploadForm';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes/Router';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Upload PDF and Generate Points</h1>
-      <UploadForm />
-    </div>
+    <RouterProvider router={router} />
   );
 };
 
