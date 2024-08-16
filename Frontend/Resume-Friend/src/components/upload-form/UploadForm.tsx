@@ -23,8 +23,8 @@ const UploadForm: React.FC = () => {
     const formData = new FormData();
     formData.append('file', file);
 
-    try {
-      const response = await axios.post('http://localhost:5000/upload', formData, {
+    try { 
+      const response = await axios.post('http://localhost:5000/api/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

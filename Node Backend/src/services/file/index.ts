@@ -7,7 +7,7 @@ export const sendFilePath = async (filePath: string) => {
     const formData = new FormData();
     formData.append('pdf_file', fs.createReadStream(filePath));
 
-    const response = await axios.post('http://192.168.1.45:8000/generate-cover-letter', formData, {
+    const response = await axios.post('http://127.0.0.1:8000/generate-cover-letter', formData, {
       headers: formData.getHeaders(),
       timeout: 30000, // 30 seconds
     });
