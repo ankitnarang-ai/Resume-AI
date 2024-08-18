@@ -24,12 +24,14 @@ const Navbar: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            AI Services
+            Resume Friend
           </motion.a>
           <div className="hidden lg:flex space-x-8">
             <NavItem href="/about">About Us</NavItem>
             <NavItem href="/services">Services</NavItem>
             <NavItem href="/contact">Contact</NavItem>
+            <NavItem href="/login">Login</NavItem>
+            <NavItem href="/signup">Sign Up</NavItem>
           </div>
           <div className="lg:hidden">
             <button
