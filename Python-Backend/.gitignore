@@ -1,0 +1,22 @@
+node_modules/
+
+# Ignore environment files
+.env
+
+main.ipynb
+# Ignore Python virtual environments
+venv/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.pyc
+__pycache__/
+
+
+inputpayload.json
+

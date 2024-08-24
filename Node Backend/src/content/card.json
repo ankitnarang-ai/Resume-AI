@@ -1,0 +1,49 @@
+{
+  "cardData" : [
+    {
+      "title": "title",
+      "description": "description",
+      "buttonData": {
+        "label": "label",
+        "url": "url"
+      },
+      "image": ""
+    },
+    {
+      "title": "title",
+      "description": "description",
+      "buttonData": {
+        "label": "label",
+        "url": "url"
+      },
+      "image": ""
+    },
+    {
+      "title": "title",
+      "description": "description",
+      "buttonData": {
+        "label": "label",
+        "url": "url"
+      },
+      "image": ""
+    },
+    {
+      "title": "title",
+      "description": "description",
+      "buttonData": {
+        "label": "label",
+        "url": "url"
+      },
+      "image": ""
+    },
+    {
+      "title": "title",
+      "description": "description",
+      "buttonData": {
+        "label": "label",
+        "url": "url"
+      },
+      "image": ""
+    }
+  ]
+}
